@@ -1,18 +1,18 @@
-# Getting Started
+# YadaCoin Agent Auth Specifications
 
-Welcome to the YadaCoin developer documentation.
+Specifications for the YadaCoin KEL Agent Auth protocol and the `did:yadacoin` DID method.
 
-## Sections
+## Specifications
 
-* [`did:yadacoin` DID Method Specification](./did-yadacoin-method-spec) - W3C DID method specification for the YadaCoin blockchain.
-* [KEL Agent Auth Protocol](./kel_agent_auth_spec) - Protocol for authenticating AI agents using the Key Event Log.
-* [`API`](./API) - Create a new project.
-    * [`explorer`](./API/explorer) - Explorer endpoints will return relevant blockchain information for various search terms.
-    * [`graph`](./API/graph) - Endpoints necessary for creating a YadaCoin enabled application.
-    * [`node`](./API/node) - These endpoints are used by miners and nodes with a fully synchronized copy of the blockchain.
-    * [`pool`](./API/pool) - Pool endpoints enable pool related functions for client and server.
-    * [`wallet`](./API/wallet) - Wallet endpoints provide features for individual user wallets.
+* [`did:yadacoin` DID Method Specification](./did-yadacoin-method-spec) — W3C DID method specification for the YadaCoin blockchain.
+* [KEL Agent Auth Protocol v1.2](./kel_agent_auth_spec) — Protocol for authenticating AI agents using the Key Event Log.
 
-## Pull requests welcome!
+## SDKs
 
-If you see incorrect or missing information, typos, etc. please either fork this repo, correct the issue and submit a pull request or goto https://discord.gg/JEDJaFS and send a message to @yadacoin#8322. Thanks!
+* [Python SDK](https://github.com/pdxwebdev/yadacoin-agent-auth-py) — `pip install yadacoin-agent-auth`
+* [JavaScript SDK](https://github.com/pdxwebdev/yadacoin-agent-auth-js) — `npm install @yadacoin/agent-auth`
+
+## Related
+
+* [YadaCoin Node](https://github.com/pdxwebdev/yadacoin)
+* [yadacoin.io](https://yadacoin.io)
