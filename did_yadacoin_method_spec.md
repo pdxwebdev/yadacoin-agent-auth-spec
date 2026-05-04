@@ -4,8 +4,8 @@
 **Date:** 2026-05-01  
 **Authors:** Matthew Vogel (YadaCoin)  
 **Status:** Draft — intended for submission to the W3C DID Extensions Registry  
-**Specification URL:** https://pdxwebdev.github.io/yadacoin/did-yadacoin-method-spec.html  
-**Repository:** https://github.com/pdxwebdev/yadacoin
+**Specification URL:** https://pdxwebdev.github.io/yadacoin-agent-auth-spec/did-yadacoin-method-spec.html  
+**Repository:** https://github.com/pdxwebdev/yadacoin-agent-auth-spec
 
 ---
 
@@ -511,8 +511,8 @@ A conforming `did:yadacoin` DID controller:
   - `yadacoin.core.keyeventlog.KeyEventLog`
   - `yadacoin.core.identity.Identity`
   - `yadacoin.core.transaction.Transaction`
-- **Agent auth SDK (Python):** `sdk/python/yadacoin_agent_auth.py`
-- **Agent auth SDK (JavaScript):** `sdk/js/yadacoin-agent-auth.mjs`
+- **Agent auth SDK (Python):** https://github.com/pdxwebdev/yadacoin-agent-auth-py
+- **Agent auth SDK (JavaScript):** https://github.com/pdxwebdev/yadacoin-agent-auth-js
 - **Public resolver endpoint:** `https://yadacoin.io/key-event-log?public_key=<hex>`
 
 ---
