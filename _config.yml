@@ -1,1 +1,4 @@
 theme: minima
+title: YadaCoin Agent Auth
+description: Specifications for the KEL Agent Auth protocol and the did:yadacoin DID method.
+header_pages: []
